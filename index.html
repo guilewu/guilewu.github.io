@@ -53,12 +53,14 @@
                 
                 <div class="span10">
                     <p>
-                        <strong>PhD in Computer Science</strong>
+                        <strong>AI researcher; PhD in deep learning and computer vision.</strong>
                     </p>
                     <address>
-                        I received my PhD degree from <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>, under the supervision of <a href="http://www.eecs.qmul.ac.uk/~sgg/">Prof. Shaogang (Sean) Gong</a>.
-                        I got the prestigious Queen Mary Principal’s Research Studentship Award.
-                        My area of expertise is Deep Learning and Computer Vision.<br/>
+                        I am an AI researcher with a strong passion for conducting cutting-edge AI research and applying them to real-world problems.
+                        I received my PhD degree from <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>, London, UK, under the supervision of <a href="http://www.eecs.qmul.ac.uk/~sgg/">Prof. Shaogang (Sean) Gong</a>.
+                        I have broad research experience spanning deep learning, 3D reconstruction, generative AI, and autonomous driving.
+                        I have published some papers in top-tier AI venues and several patents. See <a href="https://dblp.org/pid/180/0097.html">DBLP</a> or <a href="https://scholar.google.ca/citations?user=ZtaFLE0AAAAJ&hl=en&oi=ao">Google Scholar</a> for more.
+                        <br/>
                         <br/>
                         <br/><strong>E-mail:</strong> guile [DOT] wu [AT] outlook [DOT] com<br/>
                     </address>
@@ -71,52 +73,98 @@
             <div class="row-fluid">
                 <h3>Area of Expertise:<small></small></h3>
                 <div class="span10">
-                    My area of expertise is Deep Learning and Computer Vision,
-                    particularly in Transfer Learning, Unsupervised Learning, Domain Adaptation, Few-Shot Learning, Lifelong Learning, Knowledge Distillation, Image Retrieval, 3D Classification/Detection, etc.
+                    My recent research focuses on exploring generative AI (particularly diffusion models) for autonomous driving scene generation (e.g., world models), as well as neural rendering and 3D reconstruction (e.g., 3D Gaussian splatting, NeRF, SDF) for autonomous driving scene reconstruction and object simulation.
+                    <p></p>
+                    In addition, I have broad knowledge in deep learning, e.g., transfer learning, knowledge distillation, incremental learning, federated learning, unsupervised learning, domain adaptation, domain generalization, object detection, object re-identification, etc.
                     <p></p>
                 </div> 
             </div>
         </section>
 
-        <section id="Recent-Award">
-            <div class="row-fluid">
-                <h3>Recent Award:<small></small></h3>
-                <div class="span10">
-                    <big>&bull;</big> Queen Mary Principal’s Research Studentship Award (QMUL, UK). <u>2018-2021</u>.
-                </div>
-            </div>
-        </section>
+<style>
+            ul {
+              list-style: none;
+              padding-left: 0;
+              margin-left: 0;
+            }
+            li {
+              position: relative;
+              padding-left: 1.5em;
+              text-indent: 1.em;
+            }
+            li::before {
+              content: "• ";
+              position: absolute;
+              left: 0;
+            }
+        </style>
 
-        <section id="Recent Publication">
+        <section id="Selected Publications">
             <div class="row-fluid">
-                <h3>Recent Publication:<small></small></h3>
+                <h3>Selected Publication / Technical Report:<small></small></h3>
                 <div class="span10">
-                    <strong>(D) Deep Learning by Knowledge Transfer:</strong>
-                    <p></p> 
-                    &nbsp; [D.4] <strong><u>G. Wu</u></strong>, S. Gong, "Collaborative Optimization and Aggregation for Decentralized Domain Generalization and Adaptation", <strong>ICCV</strong>, 2021.
+                <ul>
+                    <li>
+                        Y. Ren, <strong><u>G. Wu</u></strong>, R. Li, Z. Yang, Y. Liu, X. Chen, T. Cao, B. Liu,<br>
+                        <em>"UniGaussian: Driving scene reconstruction from multiple camera models via unified gaussian representations"</em>,<br>
+                        <strong>arXiv preprint</strong>, 2024.
+                    </li>
                     <p></p>
-                    &nbsp; [D.3] <strong><u>G. Wu</u></strong>, S. Gong, P. Li, "Striking a Balance between Stability and Plasticity for Class-Incremental Learning", <strong>ICCV</strong>, 2021.
+                    <li> 
+                        Y. Liu, Z. Yang, <strong><u>G. Wu</u></strong>, Y. Ren, K. Lin, B. Liu, Y. Liu, J. Shan,<br>
+                        <em>"Vqa-diff: Exploiting vqa and diffusion for zero-shot image-to-3d vehicle asset generation in autonomous driving"</em>,<br>
+                        <strong>ECCV</strong>, 2024.
+                    </li>
                     <p></p>
-                    &nbsp; [D.2] <strong><u>G. Wu</u></strong>, S. Gong, "Peer Collaborative Learning for Online Knowledge Distillation", <strong>AAAI</strong>, 2021.
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, T. Cao, B. Liu, X. Chen, Y. Ren,<br>
+                        <em>"Towards universal LiDAR-based 3D object detection by multi-domain knowledge transfer"</em>,<br>
+                        <strong>ICCV</strong>, 2023.
+                    </li>
                     <p></p>
-                    &nbsp; [D.1] <strong><u>G. Wu</u></strong>, S. Gong, "Decentralised Learning from Independent Multi-Domain Labels for Person Re-Identification", <strong>AAAI</strong>, 2021.
+                    <li> 
+                        Y. Liu, K. Zhu, <strong><u>G. Wu</u></strong>, B. Liu, Y. Liu, J. Shan,<br>
+                        <em>"Mv-deepsdf: Implicit modeling with multi-sweep point clouds for 3d vehicle reconstruction in autonomous driving"</em>,<br>
+                        <strong>ICCV</strong>, 2023.
+                    </li>
                     <p></p>
-                    <br>
-                    <strong>(C) Self-Supervised/Unsupervised/Semi-Supervised Learning:</strong>
-                    <p></p> 
-                    &nbsp; [C.2] P. Li, <strong><u>G. Wu</u></strong>, S. Gong, X. Lan, "Semi-Supervised Few-Shot Learning with Pseudo Label Refinement", <strong>ICME</strong>, 2021.
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, S. Gong, P. Li,<br>
+                        <em>"Striking a balance between stability and plasticity for class-incremental learning"</em>,<br>
+                        <strong>ICCV</strong>, 2021.
+                    </li>
                     <p></p>
-                    &nbsp; [C.1] <strong><u>G. Wu</u></strong>, X. Zhu, S. Gong, "Tracklet Self-Supervised Learning for Unsupervised Person Re-Identification", <strong>AAAI</strong>, 2020.
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, S. Gong,<br>
+                        <em>"Collaborative optimization and aggregation for decentralized domain generalization and adaptation"</em>,<br>
+                        <strong>ICCV</strong>, 2021.
+                    </li>
                     <p></p>
-                    <br>
-                    <strong>(B) Object Re-Identification:</strong>
-                    <p></p> 
-                    &nbsp; [B.5] <strong><u>G. Wu</u></strong>, X. Zhu, S. Gong, "Learning Hybrid Ranking Representation for Person Re-Identification", <strong>Pattern Recognition</strong>, 2022.
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, S. Gong,<br>
+                        <em>"Peer collaborative learning for online knowledge distillation"</em>,<br>
+                        <strong>AAAI</strong>, 2021.
+                    </li>
                     <p></p>
-                    &nbsp; [B.4] S. Sun, <strong><u>G. Wu</u></strong>, S. Gong, "Decentralised Person Re-Identification with Selective Knowledge Aggregation", <strong>BMVC</strong>, 2021.
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, S. Gong,<br>
+                        <em>"Decentralised learning from independent multi-domain labels for person re-identification"</em>,<br>
+                        <strong>AAAI</strong>, 2021.
+                    </li>
                     <p></p>
-                    &nbsp; [B.3] <strong><u>G. Wu</u></strong>, S. Gong, "Generalising without Forgetting for Lifelong Person Re-Identification", <strong>AAAI</strong>, 2021.
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, S. Gong,<br>
+                        <em>"Generalising without forgetting for lifelong person re-identification"</em>,<br>
+                        <strong>AAAI</strong>, 2021.
+                    </li>
                     <p></p>
+                    <li> 
+                        <strong><u>G. Wu</u></strong>, X. Zhu, S. Gong,<br>
+                        <em>"Tracklet self-supervised learning for unsupervised person re-identification"</em>,<br>
+                        <strong>AAAI</strong>, 2020.
+                    </li>
+                    <p></p>
+                </ul>
                 </div>
             </div>
         </section>
